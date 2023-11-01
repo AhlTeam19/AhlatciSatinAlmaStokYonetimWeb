@@ -1,0 +1,141 @@
+﻿<div class="card mt-4">
+    <div class="card-body">
+
+        <div class="page-aside-left">
+            <div class="col-12">
+                <h5 class="mt-0 mb-3">Talep Listesi</h5>
+                <!-- start search box -->
+                <div class="app-search">
+                    <form>
+                        <div class="mb-2 position-relative">
+                            <input type="text" class="form-control" id="searchRequest" placeholder="Talep No Ara...">
+                            <span class="mdi mdi-magnify search-icon"></span>
+                        </div>
+                    </form>
+                </div>
+                <!-- end search box -->
+
+                <div class="row">
+                    <div class="col">
+                        <div data-simplebar="init" style="max-height: 535px;">
+                            <div class="simplebar-wrapper" style="margin: 0px;">
+                                <div class="simplebar-height-auto-observer-wrapper">
+                                    <div class="simplebar-height-auto-observer"></div>
+                                </div>
+                                <div class="simplebar-mask">
+                                    <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                        <div class="simplebar-content-wrapper"
+                                             style="height: auto; overflow: hidden scroll;">
+                                            <div class="simplebar-content" style="padding: 0px;">
+                                                <div id="divRequests"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="simplebar-placeholder"
+                                     style="width: 291px; height: 546px;"></div>
+                            </div>
+                            <div class="simplebar-track simplebar-horizontal"
+                                 style="visibility: visible;">
+                                <div class="simplebar-scrollbar" style="width: 0px; display: none;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-aside-right">
+            <div class="row">
+                <div class="card">
+                    <div class="card"></div>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="font-14">Talep No:</h6>
+                    <p class="text-sm lh-150">1784</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="font-14">Şirket:</h6>
+                    <p class="text-sm lh-150">Test</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="font-14">Departman:</h6>
+                    <p class="text-sm lh-150">Satın Alma</p>
+                </div>
+            </div>
+
+            <div>
+
+                <table class="table table-bordered table-centered mb-0">
+                    <thead>
+                        <tr>
+                            <th>Kullanıcı Adı</th>
+                            <th>Talep</th>
+                            <th>Departman</th>
+                            <th class="text-center">Eylem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-user">
+                                <img src="assets/images/users/avatar-6.jpg" alt="table-user" class="me-2 rounded-circle">
+                                Risa D. Pearson
+                            </td>
+                            <td>Şundan</td>
+                            <td>Yazılım</td>
+                            <td class="table-action text-center">
+                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-check-outline"></i></a>
+
+                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-minus-circle-outline"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-user">
+                                <img src="assets/images/users/avatar-7.jpg" alt="table-user" class="me-2 rounded-circle">
+                                Ann C. Thompson
+                            </td>
+                            <td>Bundan</td>
+                            <td>ÇorumGaz</td>
+                            <td class="table-action text-center">
+                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-check-outline"></i></a>
+
+                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-minus-circle-outline"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-user">
+                                <img src="assets/images/users/avatar-8.jpg" alt="table-user" class="me-2 rounded-circle">
+                                Paul J. Friend
+                            </td>
+                            <td>Şundan</td>
+                            <td>Enerya</td>
+                            <td class="table-action text-center">
+                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-check-outline"></i></a>
+
+                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-minus-circle-outline"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-user">
+                                <img src="assets/images/users/avatar-9.jpg" alt="table-user" class="me-2 rounded-circle">
+                                Sean C. Nguyen
+                            </td>
+                            <td>Bundan</td>
+                            <td>Kuyumculuk</td>
+                            <td class="table-action text-center">
+                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-check-outline"></i></a>
+
+                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-minus-circle-outline"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="~/js/requestControl.js"></script>
+<script src="~/js/site.js"></script>
